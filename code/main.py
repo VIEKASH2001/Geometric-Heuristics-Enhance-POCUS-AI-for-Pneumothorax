@@ -141,7 +141,7 @@ def main():
     #Write the config
     with open(os.path.join(cfg.EXPERIMENT.DIR, "config.yaml"), "w") as file1:
         file1.write(str(cfg))
-    
+ 
     model = initModel(cfg)
 
     if cfg.MODEL.TYPE == "video":    # into this
@@ -150,12 +150,7 @@ def main():
         train_frame.cli_main(cfg, model)
     else:
         raise ValueError(f"Unsupported cfg.MODEL.TYPE = {cfg.MODEL.TYPE}!")
-
-# Run CMD : 
-# python3 code/main.py --cfg code/configs/exp2.yaml DATA.TRAIN_FOLDS "['C', 'B']" DATA.VAL_FOLDS "['A']"
-# python3 code/main.py --cfg code/configs/exp2.yaml DATA.TRAIN_FOLDS "['A', 'C']" DATA.VAL_FOLDS "['B']"
-# python3 code/main.py --cfg code/configs/exp2.yaml DATA.TRAIN_FOLDS "['A', 'B']" DATA.VAL_FOLDS "['C']"
-
+    
 if __name__ == "__main__":
 
     print("Started...")
