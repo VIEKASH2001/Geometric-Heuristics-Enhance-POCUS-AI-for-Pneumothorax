@@ -19,7 +19,7 @@ DATA:
   PROBE: Linear
   RANDOM_SPLIT_TRIAL: R1
   REPROCESS: False
-  ROOT_PATH: /data1/datasets/
+  ROOT_PATH: data1/datasets/
   TEST_SPLIT: 0.2
   TRAIN_FOLDS: ['A', 'B']
   UPSAMPLE: True
@@ -42,7 +42,7 @@ MODEL:
   ST_CONCENSUS: SavgDropTmaxCls
   MULTI_TASK: False
 SOLVER:
-  EPOCHS: 1
+  EPOCHS: 100
   INIT_LR: 0.0001
   LOSS_FUNC: cross_entropy
   OPTIMIZER: adam

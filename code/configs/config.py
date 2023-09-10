@@ -23,7 +23,7 @@ _C.EXPERIMENT.NAME = "Test"
 # Model used for exp
 _C.EXPERIMENT.MODEL = "tsm"
 # Dataset used for exp
-_C.EXPERIMENT.DATASET = "DARPA-Dataset"
+_C.EXPERIMENT.DATASET = "LSU-Dataset"
 # Mode of the exp
 _C.EXPERIMENT.MODE = "Train"
 # Trial no of the exp
