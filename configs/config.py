@@ -23,7 +23,7 @@ _C.EXPERIMENT.NAME = "Test"
 # Model used for exp
 _C.EXPERIMENT.MODEL = "tsm"
 # Dataset used for exp
-_C.EXPERIMENT.DATASET = "DARPA-Pneumothorax"
+_C.EXPERIMENT.DATASET = "DARPA-Dataset"
 # Mode of the exp
 _C.EXPERIMENT.MODE = "Train"
 # Trial no of the exp
@@ -80,7 +80,7 @@ _C.MODEL.SAVE_FEATURES = True
 # Dataset configs
 _C.DATA = CN()
 # Dataset root dir
-_C.DATA.ROOT_PATH = "../Datasets/"
+_C.DATA.ROOT_PATH = "/data1/datasets/"
 # Reprocess the preprocess steps
 _C.DATA.REPROCESS = False
 # Augment data
