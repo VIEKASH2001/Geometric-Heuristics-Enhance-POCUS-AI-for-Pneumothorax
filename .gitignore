@@ -1,0 +1,6 @@
+data/*
+results/*
+reports/*
+
+*__pycache__*
+results_v0/*
