@@ -1,11 +1,3 @@
-"""
- * @author Gautam R Gare
- * @email gautam.r.gare@gmail.com
- * @create date 2021-11-01 22:42:30
- * @modify date 2022-07-18 21:55:08
- * @desc [description]
- """
- 
 import numpy as np
 import torch
 
