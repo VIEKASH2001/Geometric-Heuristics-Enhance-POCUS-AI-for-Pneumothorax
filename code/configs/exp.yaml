@@ -21,9 +21,9 @@ DATA:
   REPROCESS: False
   ROOT_PATH: data1/datasets/
   TEST_SPLIT: 0.2
-  TRAIN_FOLDS: ['A', 'B']
+  TRAIN_FOLDS: ['C', 'B']
   UPSAMPLE: True
-  VAL_FOLDS: ['C']
+  VAL_FOLDS: ['A']
   TEST_FOLDS: ['D']
 EXPERIMENT:
   DATASET: DARPA-Dataset
